@@ -7,6 +7,4 @@
 	"source": "https://github.com/lspg/puppet-openproject",
 	"project_page": "https://github.com/lspg/puppet-openproject",
 	"issues_url": "https://github.com/lspg/puppet-openproject/issues",
-	"dependencies": [
-	]
 }
