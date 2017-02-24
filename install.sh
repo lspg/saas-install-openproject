@@ -18,7 +18,8 @@ export PATH=$PATH:/opt/puppetlabs/bin
 apt-key adv --recv-key --keyserver pgp.mit.edu EF8D349F
 apt-get update && apt-get --yes install puppet librarian-puppet
 
-# wget ...zip; unzip 
-#wget --no-check-certificate https://github.com/lspg/puppet-installers/archive/master.zip -O openproject-puppet-installer.zip && unzip openproject-puppet-installer.zip && rm openproject-puppet-installer.zip
+# Get puppet dependencies
+librarian-puppet install --clean --verbose
 
-#librarian-puppet install --clean --verbose
+# Start puppet install
+puppet apply --modulepath=${INSDIR}/modules --verbose --debug ${INSDIR}/init.pp
