@@ -8,6 +8,7 @@ INSDIR='/root/install/openproject'
 apt-get update && apt-get --yes upgrade
 apt-get --yes install git
 
+rm -Rf ${INSDIR}
 git clone https://github.com/lspg/saas-install-openproject.git ${INSDIR}
 
 # Install Puppet
