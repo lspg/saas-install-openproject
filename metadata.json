@@ -1,10 +1,10 @@
 {
 	"name": "saas-install-openproject",
 	"version": "0.1.0",
-	"author": "Loïs PUIG",
+	"author": "lspg",
 	"summary": "OpenProject for Debian 8",
 	"license": "MIT",
 	"source": "https://github.com/lspg/puppet-openproject",
 	"project_page": "https://github.com/lspg/puppet-openproject",
-	"issues_url": "https://github.com/lspg/puppet-openproject/issues",
+	"issues_url": "https://github.com/lspg/puppet-openproject/issues"
 }
